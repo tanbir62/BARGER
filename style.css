@@ -1,0 +1,120 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+
+/*
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+
+
+*/
+a,a:hover{
+	text-decoration: none;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+/*******
+banner code css
+********/
+
+.banner{
+	height: 100vh;
+	width: 100%;
+	background: url('img/bacraund.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.nabver{
+	display: flex;
+	justify-content: space-between;
+}
+.header{
+	padding: 20px 0px;
+
+}
+.menu{
+	text-align: right;
+}
+.nav-menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 32px;
+}
+.nav-menu{
+	padding: 20px 0px;
+}
+.nav-menu ul li a{
+	text-transform: uppercase;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+	color: #3d2514;
+}
+.h-contact span{
+	font-family: 'Montserrat', sans-serif;
+	color: #3d2514;
+	font-size: 16px;
+	font-weight: 600;
+	margin-left: 16px;
+	
+}
+.h-contact span{
+	vertical-align: middle;
+}
+.h-contact img{
+	vertical-align: middle;
+}
+
+.content{
+	display: flex;
+	justify-content: space-between;
+}
+.b-right img{
+	max-width: 100%;
+	height: auto;
+}
+.b-left {
+	flex-basis: 50%;
+	margin-top: 90px; 
+}
+.b-right{
+  flex-basis: 50%;
+}
+.b-left p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    color: #3d2514;
+    border: 4px dashed #3d2514;
+    display: inline-block;
+    padding: 8px 14px;
+}
+.b-left h1{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 114px;
+	color: #3d2514;
+	text-transform: uppercase;
+	text-shadow: 4px 4px white;
+	letter-spacing: 5px;
+}
+.b-left h2{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 60px;
+	color: #3d2514;
+	text-transform: uppercase;
+	text-shadow: 3px 3px white;
+	letter-spacing: 3px;
+}
